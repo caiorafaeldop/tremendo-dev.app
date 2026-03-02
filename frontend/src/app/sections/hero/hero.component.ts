@@ -18,7 +18,7 @@ import { CommonModule } from '@angular/common';
         Este projeto foi construído para <em>aprendizado hands-on</em>, com foco na
         <strong>comparação direta</strong> entre o ecossistema
         <span class="highlight-node">Node.js / React / Next.js</span> (que já domino)
-        e o ecossistema <span class="highlight-java">Java / Spring / Angular</span> (que estou aprendendo).
+        e o ecossistema <span class="highlight-java">Java / Spring / Angular</span> .
       </p>
 
       <p class="hero-quote">
