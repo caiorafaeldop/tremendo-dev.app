@@ -20,10 +20,7 @@ interface Account {
     <section class="section">
       <span class="section-label">Comparação: Padrões de Backend</span>
       <h2 class="section-title">Service único (Node) vs CQRS (Java/Spring)</h2>
-      <p class="section-subtitle" style="margin-bottom: 2.5rem;">
-        No Node, costumamos jogar tudo num service.ts. No CQRS, <strong>escrita (Command) e leitura (Query)</strong>
-        são handlers separados. Os dados vão direto pro <strong>PostgreSQL real</strong> na Neon.
-      </p>
+      
 
       <div class="cqrs-grid">
         <!-- Formulário -->

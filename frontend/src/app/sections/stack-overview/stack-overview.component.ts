@@ -9,10 +9,7 @@ import { CommonModule } from '@angular/common';
     <section class="section">
       <span class="section-label">Comparação de Stacks</span>
       <h2 class="section-title">O que muda de Node/React para Java/Angular?</h2>
-      <p class="section-subtitle" style="margin-bottom: 3rem;">
-        Cada card compara como faço algo no meu dia-a-dia com <strong style="color: var(--green)">Node/React</strong>
-        vs como funciona aqui em <strong style="color: var(--accent-light)">Java/Angular</strong>.
-      </p>
+      
 
       <div class="stack-grid">
         <div class="card stack-card" *ngFor="let item of comparisons">

@@ -23,19 +23,19 @@ import { CommonModule } from '@angular/common';
 
       <p class="hero-quote">
         "Cada seção mostra um conceito da stack Java/Angular lado a lado com o equivalente
-        em Node/React. Não é teoria — é código real conectado a um PostgreSQL na nuvem."
+        em Node/React."
       </p>
 
       <div class="stacks-comparison">
         <div class="stack-column from">
-          <span class="stack-label">De onde venho</span>
+          <span class="stack-label">Comparativo</span>
           <div class="stack-items">
             <span class="tech-badge green" *ngFor="let t of fromStack">{{ t }}</span>
           </div>
         </div>
         <div class="arrow-separator">→</div>
         <div class="stack-column to">
-          <span class="stack-label">O que estou aprendendo</span>
+          <span class="stack-label">Comparativo</span>
           <div class="stack-items">
             <span class="tech-badge" *ngFor="let t of toStack">{{ t }}</span>
           </div>

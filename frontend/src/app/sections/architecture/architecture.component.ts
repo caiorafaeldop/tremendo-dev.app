@@ -9,10 +9,7 @@ import { CommonModule } from '@angular/common';
     <section class="section">
       <span class="section-label">Comparação: Organização de Código</span>
       <h2 class="section-title">MVC flat (Node) vs Arquitetura Hexagonal (Java)</h2>
-      <p class="section-subtitle" style="margin-bottom: 3rem;">
-        No Node, organizo em <code>controllers/</code> <code>services/</code> <code>models/</code> — funciona, mas escala mal.
-        No Java enterprise, a Clean Architecture separa por camadas concêntricas. Passe o mouse pra explorar.
-      </p>
+     
 
       <div class="onion-container">
         <div class="onion-ring infra" (mouseenter)="activeLayer = 'infra'" (mouseleave)="activeLayer = ''">
